@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(210, 239, 255, 0.774);
+    /* background-image: url('./bg.png') !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%; */
+    
+    
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+   
+   
+    max-width: 100%;
+    .player
+    {
+        background: rgba(210, 239, 255, 0.9);
+        width: 500px;
+        height: 800px;
+        max-width: 80vw;
+        max-height: 70vh;
+        border-radius: 50px;
+        box-shadow: 10px 10px 30px 15px rgba(1, 20, 31, 0.103);
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+         #range 
+         {
+             width: 100%;
+         }
+         .spinner
+         {
+             padding-top: 20%;
+             .circle 
+             {
+                
+                background: #000;
+                 width: 31vh;
+                 height: 31vh;
+                 border-radius: 100%;
+                 background-image: url('https://fanart.tv/fanart/music/410c9baf-5469-44f6-9852-826524b80c61/albumcover/gantz-graf-502fd5456f6e8.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 1px #555;
+                 border: silver 3px solid;
+                 animation:  none;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 .center 
+                 {
+                     background: #000;
+                     width: 100px;
+                     height: 100px;
+                     border-radius: 100%;
+                 }
+             }
+         }
+         .buttons
+         {
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             width: 500px !important;
+             max-width: 80vw;
+            
+             width: 100%;
+             button
+              {
+                  border-radius: 100%;
+                  padding: 2em;
+                  cursor: pointer;
+                  outline: none;
+                  border: none;
+                  background: inherit;
+                  box-shadow: 3px 3px 3px 1px rgba(1, 20, 31, 0.103),inset 3px 3px 3px  rgba(255, 255, 255, 0.144),-3px -3px 3px 1px rgba(1, 20, 31, 0.103);
+                  
+                 
+              }
+         }
+         
+
+    }
+}
+@keyframes rotation 
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
